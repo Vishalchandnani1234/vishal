@@ -1,0 +1,124 @@
+#navigation a
+{
+	color: white;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+#navigation a:hover
+{
+	color: black;
+	background-color: lightgreen;
+}
+input
+{
+	margin-top: 15px;
+}
+i
+{
+	color: yellow;
+}
+header
+{
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+}
+.navbar-inverse
+{
+	background-image: linear-gradient(to left, #cc5b5e, #753a88);
+}
+.menu-toggle
+{
+	color: #fff;
+	font-size: 40px;
+	float: right;
+}
+.Sidebar
+{
+	width: 1000px;
+	height: 780px;
+	margin: auto;
+	background-color: linen;
+}
+.Sidebar_Title
+{
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+#Sidebar li
+{
+	padding: 8px;
+	display: block;
+	list-style: none;
+}
+#Sidebar a
+{
+	background-color: white;
+	color: black;
+	font-size: 15px;
+	text-decoration: underline;
+}
+#Sidebar a:hover
+{
+	color: red;
+	font-weight: bolder;
+}
+.Sidebar_Content
+{
+	width: 200px;
+	height: 800px;
+	float: left;
+	background-color: #FAF0B6;
+	background-size: 100%;
+}
+.Content
+{
+	width: 800px;
+	float: right;
+	background-image: linear-gradient(to right, #AFF1DA, #F9EA8F);
+	background-size: 100%;
+}
+.footer
+{
+	width: 1000px;
+	background-color: gray;
+}
+#product
+{
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+#product1
+{
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+}
+#product2
+{
+	margin-left: 20px;
+	padding: 10px;	
+}
+#product1 img
+{
+	border: 2px solid blue;
+}
+.Cart
+{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
+#Cart1
+{
+	color: white;
+	font-size: 20px;
+	float: right;
+	padding: 10px;
+	margin-left: 10px;
+}

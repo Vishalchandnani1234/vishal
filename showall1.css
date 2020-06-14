@@ -1,0 +1,30 @@
+table, td
+{
+	border: 1.3px solid black;
+	border-collapse: collapse;
+	background-color: linen;
+}
+table
+{
+	width: 100%;
+}
+td
+{
+	text-align: center;
+	padding: 10px;
+}
+th
+{
+	border: 1.3px solid black;
+	border-collapse: collapse;
+	background-color: pink;
+}
+input
+{
+	width: auto;
+}
+label
+{
+	margin-left: 30%;
+	font-size: 15px;
+}

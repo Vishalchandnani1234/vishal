@@ -1,0 +1,183 @@
+#navigation a
+{
+	color: white;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+#navigation a:hover
+{
+	color: black;
+	background-color: lightgreen;
+}
+#navigation li
+{
+	display: block;
+}
+input
+{
+	margin-top: 15px;
+}
+i
+{
+	color: yellow;
+}
+header
+{
+	margin-top: 15px;
+	color: white;
+	font-size: 20px;
+}
+.navbar-inverse
+{
+	background-image: linear-gradient(to left, #cc5b5e, #753a88);
+}
+.menu-toggle
+{
+	color: #fff;
+	font-size: 30px;
+	float: right;
+	display: none;
+}
+@media (max-width: 768px)
+{
+	.menu-toggle
+	{
+		display: block;
+		margin-right: 20px;
+		margin-top: -30px;
+	}
+	#navigation li
+	{
+		display: none;
+	}
+	#navigation input
+	{
+		display: none;
+	}
+	#navigation i
+	{
+		display: none;	
+	}
+	header
+	{
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.active
+	{
+		display: block;
+	}
+	img
+	{
+		width: 90px;
+		height: 90px;
+	}
+	#Sidebar li
+	{
+		margin-right:100px;
+	}
+	.Cart p
+	{
+		font-size: 2px;
+	}
+	@media (max-width: 560px)
+	{
+		#Sidebar li
+		{
+			margin-right: 1000px;
+		}
+	}
+}
+h3
+{
+	font-size: 2.2vw;
+}
+.Sidebar
+{
+	width: 90%;
+	height: 780px;
+	margin: auto;
+	background-color: linen;
+}
+.Sidebar_Title
+{
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+#Sidebar li
+{
+	padding: 8px;
+	display: block;
+	list-style: none;
+}
+#Sidebar a
+{
+	background-color: white;
+	color: black;
+	font-size: 15px;
+	text-decoration: underline;
+}
+#Sidebar a:hover
+{
+	color: red;
+	font-weight: bolder;
+}
+.Sidebar_Content
+{
+	width: 20%;
+	height: 92%;
+	float: left;
+	background-color: #FAF0B6;
+	background-size: 100%;
+}
+.Content
+{
+	width: 80%;
+	float: right;
+	background-image: linear-gradient(to right, #AFF1DA, #F9EA8F);
+	background-size: 100%;
+}
+.footer
+{
+	width: 100%;
+	background-color: gray;
+}
+#product
+{
+	width: 90%;
+	text-align: center;
+	margin-left: 3%;
+	margin-bottom: 1%;
+}
+#product1
+{
+	float: left;
+	margin-left: 2%;
+	padding: 1%;
+}
+#product2
+{
+	margin-left: 2%;
+	padding: 10px;	
+}
+#product1 img
+{
+	border: 2px solid blue;
+}
+.Cart
+{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
+#Cart1
+{
+	color: white;
+	font-size: 100%;
+	float: right;
+	padding: 1%;
+	margin-left: 1%;
+}
